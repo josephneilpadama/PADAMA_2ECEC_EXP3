@@ -1,4 +1,4 @@
-# Experiment 4: Data Wrangling and Data Visualization
+# Experiment 3: Python Data Analysis (Pandas)
 
 **Name:** Padama, Joseph Neil C.  
 **Section:** 2ECE-C  
