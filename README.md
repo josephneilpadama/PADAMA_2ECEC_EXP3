@@ -8,7 +8,23 @@
 
 ## Objectives
 
-1. Filter tabular data using several categorical and numerical conditions.
-2. Construct focused DataFrames by selecting relevant features.
-3. Summarize the relationship between categorical features and a numerical variable.
-4. Communicate a data comparison using clear and correctly labeled plots.
+At the end of this laboratory activity, the student should be able to:
+1. load a CSV dataset into a Pandas DataFrame;
+2. select rows and columns using positional and label-based indexing;
+3. filter records using conditions on a DataFrame column; and
+4. extract a well-defined subset of data without changing the source data.
+---
+
+### Setup
+
+The initial code imports Pandas as `pd`, loads the `cars.csv` dataset into a DataFrame named `cars`, and previews the entire dataset to inspect its structure and features.
+
+<details>
+<summary><b>Click to Expand: Initial Setup Code and Output</b></summary>
+
+```python
+import pandas as pd
+
+# Load the cars.csv dataset
+cars = pd.read_csv('cars.csv')
+cars
